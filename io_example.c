@@ -12,7 +12,7 @@ int main() {
    2. question, why there is no address sign before the str?
    3. note the %lf when reading double 
    */
-   scanf("%s %d %f %f", str, &i, &a, &b);
+   scanf("%s %d %f %lf", str, &i, &a, &b);
    printf( "\nYou entered: %s, %d, %f, %lf\n", str, i, a, b);
    return 0;
 }
